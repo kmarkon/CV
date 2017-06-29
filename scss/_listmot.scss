@@ -9,11 +9,17 @@
         width: 100%;
         .address{
           margin-top: 0;
-          h1{
-            margin-top: 0;
-            margin-bottom: 15px;
-            color:map-get($colors, color5);
+          a{
+            text-decoration: none;
+            h1{
+              margin-top: 0;
+              margin-bottom: 15px;
+              color:map-get($colors, color5);
             }
+          }
+          h1:hover{
+            color:map-get($colors, color2);
+          }
           }//ending .address
         }//ending #section1
     }//ending .col
