@@ -369,17 +369,20 @@
           background-image: url("../images/ang.jpg");
           background-size: contain;
           background-repeat: no-repeat;
+          margin-left: 20px;
         }
         .franc{
-          width: 60%;
+          width: 70%;
           height: 50%;
           background-image: url("../images/franc.jpg");
           background-size: contain;
           background-repeat: no-repeat;
+          margin-left: 20px;
         }
         .stars{
           margin-top: 5px;
-          padding-right: 20px;
+          width: 70%;
+
           i{
             padding: 0;
             color:map-get($colors, color5);
