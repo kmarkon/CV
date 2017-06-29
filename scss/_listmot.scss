@@ -3,6 +3,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   .row{
+    color:map-get($colors, color2);
     .leftSide{
       #section1{
         width: 100%;
@@ -22,6 +23,7 @@
         margin-top: 40px;
       }
       .data,.company{
+        color:map-get($colors, color5);
         .col-sm-12{
           display: flex;
           justify-content: flex-end;
@@ -39,6 +41,7 @@
         .signature{
           display: flex;
           justify-content: flex-end;
+          color:map-get($colors, color5);
         }
       }
 
