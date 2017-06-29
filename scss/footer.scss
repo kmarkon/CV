@@ -1,0 +1,13 @@
+footer{
+  margin-top:30px;
+  // margin-top: 90px;//only English
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .accept{
+    font-size: 8px;
+    color: map-get($colors, color2);
+  }
+}

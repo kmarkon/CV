@@ -1,0 +1,161 @@
+#section1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  // border:1px solid red;
+  .address{
+    margin-top: 36px;
+    .intro{
+      color:map-get($colors, color5);
+      border-bottom:1px solid map-get($colors, color3);
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    div{
+      // border:1px solid yellow;
+      // border-bottom: 1px solid map-get($colors, color3);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      // justify-content: space-between;
+      margin-top: 5px;
+      i{
+        color:map-get($colors, color5)
+      }
+
+      p, a{
+        padding-left: 20px;
+        font-size: 12px;
+        margin: 0;
+        color:grey;
+        text-decoration: none;
+      }
+    }//div
+  }//.address
+  .skills{
+    .intro{
+      color:map-get($colors, color5);
+      border-bottom:1px solid map-get($colors, color3);
+      margin-top: 30px;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    div{
+      display: flex;
+      flex-direction: column;
+      // border:1px solid red;
+      p{
+        font-size:10px;
+        margin-bottom: 0;
+      }
+      div{
+        width: 100%;
+        border:1px solid grey;
+        border-radius: 5px;
+        .bar_1, .bar_2,.bar_3,.bar_4,.bar_5,.bar_6,.bar_7,.bar_8, .bar_9{
+          height: 4px;
+          background-color: map-get($colors, color5);
+          border-radius: 5px;
+        }
+        .bar_1{
+          width: 75%;
+        }
+        .bar_2{
+          width: 50%;
+        }
+        .bar_3{
+          width: 60%;
+        }
+        .bar_4{
+          width: 75%;
+        }
+        .bar_5{
+          width: 75%;
+        }
+        .bar_6{
+          width: 50%;
+        }
+        .bar_7{
+          width: 30%;
+        }
+        .bar_8{
+          width: 70%;
+        }
+        .bar_9{
+          width: 20%;
+        }
+      }//div bar
+    }//div
+
+  }//.skills
+  .abilities{
+   .intro{
+     color:map-get($colors, color5);
+     border-bottom:1px solid map-get($colors, color3);
+     margin-top: 30px;
+
+   }
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   .ab_1, .ab_2, .ab_3, .ab_4{
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 8px;
+     i{
+       color:map-get($colors, color5);
+     }
+     p{
+       font-size: 12px;
+      //  font-weight: bold;
+       color:map-get($colors, color2);
+       margin-bottom: 0;
+       margin-top: 0;
+       margin-left: 20px;
+
+     }
+   }
+ }//ending abilities
+  .interests{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    width: 100%;
+    // border:1px solid blue;
+    .intro{
+      color:map-get($colors, color5);
+      width: 100%;
+      border-bottom:1px solid map-get($colors, color3);
+      margin-top: 20px;
+      margin-bottom: 16px;
+    }
+    .boxes{
+      .box1, .box2, .box3{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8px;
+        p{
+          color:map-get($colors, color2);
+          font-size: 12px;
+          margin: 0;
+          margin-left: 20px;
+          // margin-bottom: 10px;//only English
+        }
+        p.bicycle{
+          margin-left: 13px;
+        }
+        i{
+          color:map-get($colors, color5);
+        }
+
+      }
+    }
+  }//.interests
+
+}//section1
